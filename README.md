@@ -14,7 +14,7 @@ Frontend: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
 Wishlist:
 
 * [node-config](https://github.com/node-config/node-config) + Zod for configuration validation
-* [Drizzle](https://orm.drizzle.team/docs/overview) + Postgresql 
+* [Drizzle](https://orm.drizzle.team/docs/overview) + Postgresql
 * SSR? [Remix SSR](https://remix.run/)
 * SPA? Remix [SPA mode](https://remix.run/docs/en/main/future/spa-mode)
 * [Hono RPC Mode + Zod OpenAPI](https://hono.dev/snippets/zod-openapi)
@@ -23,7 +23,6 @@ Wishlist:
 
 Next Steps:
 
-* [ ] Prettier
 * [ ] Implement fizzbuzz endpoint on backend
 * [ ] Connect frontend to backend with Hono RPC
 * [ ] Container to ship backend and frontend to Cloudrun
