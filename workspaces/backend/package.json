@@ -1,6 +1,9 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "lint": "tsc && eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "@hono/node-server": "^1.7.0",
@@ -9,6 +12,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "tsx": "^3.12.2"
+    "tsx": "^3.12.2",
+    "vitest": "^1.2.2"
   }
 }

@@ -19,4 +19,5 @@ app.get(
     })
 })
 
+console.log('✨Listening on http://localhost:3000');
 serve({ fetch: app.fetch, port: 3000 });
