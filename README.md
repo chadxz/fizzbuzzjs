@@ -23,6 +23,7 @@ Wishlist:
 
 Next Steps:
 
+* [ ] Add scripts to package.json
 * [ ] Implement fizzbuzz endpoint on backend
 * [ ] Connect frontend to backend with Hono RPC
 * [ ] Container to ship backend and frontend to Cloudrun
