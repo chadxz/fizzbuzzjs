@@ -3,6 +3,11 @@
   "workspaces": [
     "workspaces/*"
   ],
+  "scripts": {
+    "lint": "bun run lint:backend && bun run lint:frontend",
+    "lint:backend": "bun run --cwd workspaces/backend lint",
+    "lint:frontend": "bun run --cwd workspaces/frontend lint"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
