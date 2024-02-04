@@ -2,9 +2,7 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
-    "moduleResolution": "Bundler",
     "paths": {
       "@backend/*": ["*"]
     }

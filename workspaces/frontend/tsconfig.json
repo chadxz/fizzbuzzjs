@@ -1,18 +1,11 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
     "baseUrl": ".",
-    "jsx": "react-jsx",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "moduleResolution": "bundler",
-    "noEmit": true,
     "paths": {
       "@backend/*": ["*"]
     },
-    "resolveJsonModule": true,
-    "target": "ES2020",
-    "useDefineForClassFields": true,
   },
   "include": ["src", "vite.config.ts"],
 }
