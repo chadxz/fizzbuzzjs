@@ -5,6 +5,7 @@
   ],
   "scripts": {
     "format": "prettier --ignore-unknown --write .",
+    "test": "echo \"no tests yet\"",
     "lint": "bun run lint:backend && bun run lint:frontend",
     "lint:backend": "bun run --cwd workspaces/backend lint",
     "lint:frontend": "bun run --cwd workspaces/frontend lint",
@@ -12,15 +13,8 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/eslint": "^8.56.2",
-    "@types/lint-staged": "^13.3.0",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
-    "eslint": "^8.55.0",
-    "eslint-config-prettier": "^9.1.0",
     "husky": "^9.0.10",
     "lint-staged": "^15.2.1",
-    "prettier": "^3.2.4",
-    "typescript": "^5.0.0"
+    "prettier": "^3.2.4"
   }
 }

@@ -5,6 +5,7 @@ extends:
   - plugin:react-hooks/recommended
   - plugin:react/recommended
   - plugin:react/jsx-runtime
+  - prettier
 env:
   es2020: true
   browser: true

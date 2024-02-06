@@ -5,9 +5,7 @@ Tiny app showcasing a collection of tools wired up.
 ## Bootstrap for Development
 
 - Install runtime manager with `proto`: https://moonrepo.dev/docs/proto/install
-- Install node: `proto install node lts`
-- Install bun: `proto install bun`
-- Install dependencies in the project root with `bun install`
+- Install all dependencies in the project root with `proto use && bun install`
 
 Backend: [Hono](https://hono.dev/) + [tsx](https://github.com/privatenumber/tsx)
 Frontend: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
@@ -24,8 +22,7 @@ Wishlist:
 
 Next Steps:
 
-- [ ] Add scripts to package.json
+- [ ] CI/CD pipeline
 - [ ] Implement fizzbuzz endpoint on backend
 - [ ] Connect frontend to backend with Hono RPC
 - [ ] Container to ship backend and frontend to Cloudrun
-- [ ] CI/CD pipeline
