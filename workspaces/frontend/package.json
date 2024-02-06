@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "format": "prettier --ignore-unknown --write .",
     "lint": "bun run lint:eslint && bun run lint:typecheck",
     "lint:eslint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:typecheck": "tsc",

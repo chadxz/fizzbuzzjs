@@ -1,0 +1,7 @@
+# many options pulled from .editorconfig
+bracketSameLine: true
+arrowParens: avoid
+overrides:
+  - files: ["*.ts", "*.tsx"]
+    options:
+      parser: typescript
