@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "vitest",
     "build": "tsc && vite build",
     "format": "prettier --ignore-unknown --write .",
     "lint": "bun run lint:eslint && bun run lint:typecheck",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
+    "happy-dom": "^13.3.8",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",

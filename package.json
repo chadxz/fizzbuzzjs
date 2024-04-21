@@ -9,7 +9,7 @@
     "lint": "bun run lint:backend && bun run lint:frontend",
     "lint:backend": "bun run --cwd workspaces/backend lint",
     "lint:frontend": "bun run --cwd workspaces/frontend lint",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/bun": "latest",

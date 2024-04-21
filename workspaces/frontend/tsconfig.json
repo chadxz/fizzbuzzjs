@@ -4,8 +4,8 @@
     "baseUrl": ".",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "paths": {
-      "@backend/*": ["*"],
-    },
+      "@frontend/*": ["*"]
+    }
   },
-  "include": ["src", "vite.config.ts"],
+  "include": ["src", "vite.config.ts"]
 }
