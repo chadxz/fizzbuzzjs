@@ -9,7 +9,7 @@ import validateHookdeckSignature from "@backend/src/middleware/validate-hookdeck
 
 app.post("/shortcut", validateHookdeckSignature, async c => {
   console.log(
-    "📥 received webhook",
+    "📥 Received webhook",
     inspect(await c.req.json(), { depth: null }),
   );
   return c.json({ message: "accepted" });

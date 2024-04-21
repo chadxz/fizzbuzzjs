@@ -6,6 +6,7 @@
   "scripts": {
     "format": "prettier --ignore-unknown --write .",
     "test": "echo \"no tests yet\"",
+    "dev:backend": "bun run --cwd workspaces/backend dev",
     "lint": "bun run lint:backend && bun run lint:frontend",
     "lint:backend": "bun run --cwd workspaces/backend lint",
     "lint:frontend": "bun run --cwd workspaces/frontend lint",
